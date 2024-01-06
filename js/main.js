@@ -17,3 +17,7 @@ document.getElementById("trainForm").onsubmit = function(event) {
         alert("message sent (main)");
     }
 }
+
+document.getElementById("testButton").onclick = function(event) {
+    console.log(railRatURL("94"));
+}
